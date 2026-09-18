@@ -98,8 +98,8 @@ const { useState, useEffect, useRef } = React;
   If left blank, the app automatically falls back to saving bookshops
   only on each visitor's own device (localStorage), like before.
 */
-const SUPABASE_URL = "";
-const SUPABASE_ANON_KEY = "";
+const SUPABASE_URL = "https://uoqhnawnwskkdvxbbxft.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_LbNhChHGuApTSd3WXgY8FQ_KoJf4NeX";
 
 const supabase = (SUPABASE_URL && SUPABASE_ANON_KEY)
   ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
